@@ -111,7 +111,7 @@ main {
     background: rgba(255,255,255,0.87);
     display: flex;
     z-index: 3;
-    gap: clamp(16px, 2vh, 48px);
+    gap: clamp(12px, 2vh, 48px);
     flex-direction: column;
     align-items: flex-start;
     padding: 45px;
@@ -133,7 +133,7 @@ main {
 
 .company-name {
     font-weight: 600;
-    font-size: clamp(40px, 3vw, 72px);
+    font-size: clamp(30px, 3vw, 72px);
     letter-spacing: 0.05em;
     width: 100%;
     text-align: left;
@@ -226,7 +226,7 @@ main {
 }
 
 .page-headline{
-    font-size: clamp(40px, 3vw, 72px);
+    font-size: clamp(24px, 3vw, 72px);
     font-weight: 600;
     color: white;
     position: relative;
@@ -395,6 +395,7 @@ main {
     color: #575656;
     padding: 48px 40px;
     font-size: 14px;
+    width: 100%;
 }
 
 .footer-inner {
@@ -451,12 +452,12 @@ main {
     }
 
     .company-descr-container {
-        width: 70vw;
+        width: auto;
     }
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .navbar_btn {
         display: none;
     }
@@ -466,6 +467,16 @@ main {
     /*comment*/
     .services {
         grid-template-columns: 1fr;
+    }
+
+    .image img{
+     width: 70%;
+    }
+
+    .background-image img {
+        width: clamp(100px, 70vh, 75vw);
+        left: 20%;
+        overflow: hidden;
     }
 }
 
