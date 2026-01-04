@@ -456,7 +456,7 @@ main {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .navbar_btn {
         display: none;
     }
