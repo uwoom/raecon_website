@@ -448,7 +448,7 @@ main {
     }
 
     .services-box {
-        min-height: 40vh;
+        min-height: auto;
     }
 
     .company-descr-container {
@@ -478,6 +478,15 @@ main {
         left: 20%;
         overflow: hidden;
     }
+
+    #second-information-content {
+        text-align: left;
+    }
+
+    #second-information-box {
+        align-items: flex-start;
+    }
+
 }
 
 
