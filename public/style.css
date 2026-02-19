@@ -21,6 +21,7 @@ body {
             #7D9DC1 100%) repeat fixed;
     z-index: 1;
 }
+
 *, *::before, *::after { box-sizing: border-box; }
 header {
     position: fixed;
@@ -38,6 +39,15 @@ main {
     padding-top: 80px;
 }
 
+.datenschutz-wrapper {
+    padding: 80px 30px;
+    width: clamp(500px, 60vw, 1000px);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
 .raecon_logo {
     height: 100%;
     display: flex;
@@ -426,6 +436,26 @@ main {
     display: flex;
     gap: 24px;
     align-items: flex-start;
+}
+
+.lang-switch {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.lang-switch a {
+    padding: 6px 14px;
+    background: #f0f0f0;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #333;
+    transition: 0.2s;
+}
+
+.lang-switch a:hover {
+    background: #ddd;
 }
 
 @media (max-width: 1300px) {
