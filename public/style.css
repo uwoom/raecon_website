@@ -458,6 +458,25 @@ main {
     background: #ddd;
 }
 
+.datenschutz-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+}
+
+.datenschutz-button {
+    background: transparent;
+    color: #575656;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+
+    text-decoration: none;
+}
+
 @media (max-width: 1300px) {
         .services {
             grid-auto-flow: row;
@@ -515,6 +534,10 @@ main {
 
     #second-information-box {
         align-items: flex-start;
+    }
+
+    .datenschutz-wrapper {
+        width: 90%;
     }
 
 }
