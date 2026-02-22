@@ -504,6 +504,8 @@ main {
         width: auto;
     }
 
+
+
 }
 
 @media (max-width: 800px) {
@@ -539,7 +541,6 @@ main {
     .datenschutz-wrapper {
         width: 90%;
     }
-
 }
 
 
